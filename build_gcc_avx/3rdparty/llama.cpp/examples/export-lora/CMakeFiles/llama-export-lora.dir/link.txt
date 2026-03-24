@@ -1,0 +1,1 @@
+/usr/bin/g++  -mavx2 -include immintrin.h -O3 -DNDEBUG   CMakeFiles/llama-export-lora.dir/export-lora.cpp.o  -o ../../../../bin/llama-export-lora  -Wl,-rpath,/home/srbank/code/BitNet/build_gcc_avx/3rdparty/llama.cpp/src:/home/srbank/code/BitNet/build_gcc_avx/3rdparty/llama.cpp/ggml/src: ../../common/libcommon.a ../../src/libllama.so -pthread ../../ggml/src/libggml.so -pthread 

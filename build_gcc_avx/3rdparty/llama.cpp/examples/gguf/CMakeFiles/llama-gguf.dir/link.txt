@@ -1,0 +1,1 @@
+/usr/bin/g++  -mavx2 -include immintrin.h -O3 -DNDEBUG   CMakeFiles/llama-gguf.dir/gguf.cpp.o  -o ../../../../bin/llama-gguf  -Wl,-rpath,/home/srbank/code/BitNet/build_gcc_avx/3rdparty/llama.cpp/ggml/src: ../../ggml/src/libggml.so -pthread 

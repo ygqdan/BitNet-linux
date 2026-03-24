@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/srbank/code/BitNet/3rdparty/llama.cpp/examples/gguf-hash/deps/sha1/sha1.c
+stdio.h
+-
+string.h
+-
+stdint.h
+-
+sha1.h
+/home/srbank/code/BitNet/3rdparty/llama.cpp/examples/gguf-hash/deps/sha1/sha1.h
+
+/home/srbank/code/BitNet/3rdparty/llama.cpp/examples/gguf-hash/deps/sha1/sha1.h
+stdint.h
+/home/srbank/code/BitNet/3rdparty/llama.cpp/examples/gguf-hash/deps/sha1/stdint.h
+
